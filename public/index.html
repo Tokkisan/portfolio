@@ -10,8 +10,6 @@
     <link href="App.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-
-
   <body style="background-color: beige;">
     <div id ="top"></div>
     <br>
@@ -34,9 +32,8 @@
   
   
   
-    <div class="proj_container">
-      <div class="skills_text"
-        style="display: inline-block; padding-right: 5%; font-size: 25px; width: 400px; padding-left: 5%;">
+    <!-- <div class="proj_container">
+      <div class="skills_text">
         <h2> Skills: </h2>
         <p> Languages and software learned: </p>
         <li> c++/c# </li>
@@ -49,9 +46,19 @@
         <li> virtual box </li>
         <li> xcode </li>
         <li> android studio </li>
+      </div> -->
+
+      <div class="proj_container">
+        <div class="skills_text">
+          <h2> skills: </h2>
+          <div class="image_container"> <div class ="grid_skill_item"><img src="images/c++.png"> </div>
+          <div class="image_container"> <div class ="grid_skill_item"><img src="images/icons8-python-480.png"></div>
+
+        </div>
+        </div>
       </div>
   
-      <div class="work_exp" style="display: inline-block; font-size: 25px; width: 800px; padding-left: 5%">
+      <div class="work_exp">
         <h2> Work Experience: </h2>
         <p> <b> Part Timer at Poki Yaki/Nya </b></p>
         <P> Buena Park, California | Aug 2019 - Dec 2021</P>
@@ -65,7 +72,11 @@
       </div>
     </div>
 
-    <!-- PROJECTS "PAGE" -->
+
+    <!--                                -->
+    <!--        PROJECTS "PAGE"         -->
+    <!--                                -->
+
     <div id = "projects"></div>
     <br>
     <h1 class = "center" style = "font-size: 5em;" id = "project_title"> PROJECTS </h1>
@@ -161,16 +172,7 @@
   
     <br><br><br><br><br>
     <p class=" space">
-    </p>
-    <div class="bottombar" id="bottombar">
-      <button onclick="goToTop()" id="myBtn" class="top_button">Top</button>
-      <script>
-        function goToTop() {
-          console.log("button clicled")
-          document.body.scrollTop = 0; // For Safari
-          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-      </script>
     </div>
   </body>
 </html>
+

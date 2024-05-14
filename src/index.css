@@ -26,6 +26,8 @@ html {
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index: 1;
+
 }
 
 .topnav a {
@@ -80,6 +82,11 @@ html {
 }
 
 .skills_text {
+  font-size: 20px;
+  padding-left: 2%;
+}
+
+.work_exp {
   font-size: 20px;
   padding-left: 2%;
 }
