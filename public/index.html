@@ -3,41 +3,180 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />  
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>React App</title>
+    <link href="App.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+  <body style="background-color: beige;">
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="https://github.com/Tokkisan" target="_blank" style="float: right; padding-right: 30px;"><i class=" fa
+        fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/aaron-lee-70b7b9239/" target="_blank" style="float: right;"><i
+          class="fa fa-linkedin"></i></a>
+    </div>
+    <br>
+  
+  
+    <div class="home_container">
+      <img src="images/placeholder.jpg" alt="placeholder image" width="100%" class="main-image" style="padding-left: 5%;">
+      <div class="home_text">
+        <h2> Aaron Lee </h2>
+        <h3> About me: </h3>
+        <p> I am a software engineer that aims to combine my passion with my technical knowledge to create enjoyable
+          software . I am interested in connecting Apis that are built around the video games I currently play
+          such as: Guilty Gear Strive and Final Fantasy 14.</p>
+        <h3> Education: </h3>
+        <p><i>California State University of Fullerton</i></p>
+        <li> Switched from Bachelors in Arts in 2019 to Computer Science in 2020</li>
+        <li> Bachelors in Computer Science (2024) </li>
+      </div>
+    </div>
+  
+  
+  
+    <div class="proj_container">
+      <div class="skills_text"
+        style="display: inline-block; padding-right: 5%; font-size: 25px; width: 400px; padding-left: 5%;">
+        <h2> Skills: </h2>
+        <p> Languages and software learned: </p>
+        <li> c++/c# </li>
+        <li> python </li>
+        <li> html/php/js/css </li>
+        <li> Mysql</li>
+        <li> swift </li>
+        <li> kotlin </li>
+        <li> Unity </li>
+        <li> virtual box </li>
+        <li> xcode </li>
+        <li> android studio </li>
+      </div>
+  
+      <div class="work_exp" style="display: inline-block; font-size: 25px; width: 800px; padding-left: 5%">
+        <h2> Work Experience: </h2>
+        <p> <b> Part Timer at Poki Yaki/Nya </b></p>
+        <P> Buena Park, California | Aug 2019 - Dec 2021</P>
+        <p> Managed the register and cooking stations during the shift, and tallied up profits for the day towards the end
+          of the shift. </p>
+  
+        <p><b> Volunteer Staff at Buddy & Buddy </b></p>
+        <p> Cerritos Presbyterian Church Artesia, Ca | Jan 2018 - jan 2019</p>
+        <p> Helped take care of children that had autism spectrum disorder ranging from kindergarten to middle school </p>
+        <p> Worked on activies such as homework, exercisng, and other activies handed out by staff</p>
+      </div>
+    </div>
+  
+
+    <h1 class = "center" style = "font-size: 5em;"> PROJECTS </h1>
+    <div class="grid-container">
+  
+      <!-- project 1 -->
+      <div class="grid-item">
+        <img src="images/project1.png" class="image-button">
+        <a href="https://github.com/Tokkisan/cpsc-362-website-project/tree/main" target="_blank">
+          <div class="grid-hover">
+            <h1>CPSC 362 website project </h1>
+            <p class="grid-text"> Algorithm Visualizer that displays steps and time taken in ms. Compares bubble vs merge
+              sort, quick sort with third largets element and two different max subarrays with different time complexities
+            </p>
+          </div>
+        </a>
+      </div>
+  
+      <!-- project 2 -->
+      <div class="grid-item">
+        <img src="images/project2.png" class="image-button">
+        <a href="https://github.com/Tokkisan/website-project" target="_blank">
+          <div class="grid-hover">
+            <h1>CPSC 311 website project </h1>
+            <p class="grid-text"> Website demostrates all the different websites that are avaliable to help playesr with
+              their crafting journey</p>
+          </div>
+        </a>
+      </div>
+  
+  
+      <!-- project 3 -->
+      <div class="grid-item">
+        <img src="images/project3.png" class="image-button">
+        <a href="https://github.com/imseano/9x9Sudoku " target="_blank">
+          <div class="grid-hover">
+            <h1>CPSC 335 9x9 terminal sudoku </h1>
+            <p class="grid-text"> A sudoku game that is written in python and played in the terminal/console  </p>
+          </div>
+        </a>
+      </div>
+  
+  
+      <div class="grid-item">
+        <img src="images/placeholder.jpg" alt="Image 1" class="image-button">
+        <a href="https://github.com/Tokkisan/cpsc-362-website-project/tree/main" target="_blank">
+          <div class="grid-hover">
+            <h1>CPSC 362 website project </h1>
+            <p class="grid-text"> Algorithm Visualizer that displays steps and time taken in ms. Compares bubble vs merge
+              sort, quick sort
+              with third largets element and two different max subarrays with
+              different time complexities</p>
+          </div>
+        </a>
+      </div>
+  
+  
+      <div class="grid-item">
+        <img src="images/placeholder.jpg" alt="Image 1" class="image-button">
+        <a href="https://github.com/Tokkisan/cpsc-362-website-project/tree/main" target="_blank">
+          <div class="grid-hover">
+            <h1>CPSC 362 website project </h1>
+            <p class="grid-text"> Algorithm Visualizer that displays steps and time taken in ms. Compares bubble vs merge
+              sort, quick sort
+              with third largets element and two different max subarrays with
+              different time complexities</p>
+          </div>
+        </a>
+      </div>
+  
+  
+      <div class="grid-item">
+        <img src="images/placeholder.jpg" alt="Image 1" class="image-button">
+        <a href="https://github.com/Tokkisan/cpsc-362-website-project/tree/main" target="_blank">
+          <div class="grid-hover">
+            <h1>CPSC 362 website project </h1>
+            <p class="grid-text"> Algorithm Visualizer that displays steps and time taken in ms. Compares bubble vs merge
+              sort, quick sort
+              with third largets element and two different max subarrays with
+              different time complexities</p>
+          </div>
+        </a>
+      </div>
+  
+  
+  
+  
+  
+  
+  
+  
+    </div>
+
+  
+    <br><br><br><br><br>
+    <p class=" space">
+    </p>
+    <div class="bottombar" id="bottombar">
+      <button onclick="goToTop()" id="myBtn" class="top_button">Top</button>
+      <script>
+        function goToTop() {
+          console.log("button clicled")
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+      </script>
+    </div>
   </body>
 </html>

@@ -1,13 +1,196 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  height: 100%;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.center {
+  text-align: center;
+}
+
+.topnav {
+  background-color: #4784e6;
+  overflow: hidden;
+  padding: 0px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+.bottombar {
+  background-color: #4784e6;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top_button {
+  float: right;
+  background-color: #4784e6;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 13px;
+  margin-right: 1%;
+}
+
+.top_button:hover {
+  background-color: #ddd;
+  color: black;
+  border: none;
+}
+
+
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.home_container {
+  margin: 100px auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.home_text {
+  float: right;
+  font-size: 25px;
+  padding-left: 5%;
+  width: 800px;
+}
+
+.skills_text {
+  font-size: 20px;
+  padding-left: 2%;
+}
+
+
+.about {
+  text-align: left;
+  margin: auto;
+}
+
+.space {
+  padding: 10%;
+}
+
+
+.proj_container {
+  margin: 100px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.main_img img {
+  max-width: 600px;
+  float: left;
+  margin-right: 20px;
+}
+
+.home_container img {
+  max-width: 700px;
+  float: left;
+  margin-right: 20px;
+}
+
+
+.text {
+  font-size: 50px;
+  padding: 5px;
+
+}
+
+.big_container {
+  margin: 100px auto;
+  width: 85%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+/* grid container for projects page */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  margin-top: 5%;
+
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: opacity 0.5s ease;
+  border-radius: 25px;
+}
+
+.grid-item:hover img {
+  opacity: 0.1;
+}
+
+.grid-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.grid-item:hover .grid-hover {
+  display: flex;
+  opacity: 1;
+}
+
+.grid-hover div {
+  max-width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.grid-text {
+  padding: 5%;
+  font-size: 20px;
 }
