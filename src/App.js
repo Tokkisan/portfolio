@@ -1,23 +1,25 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div>
+        <div className="topnav">
+        <a href="#top"> Home </a>
+        <a href="#projects"> Projects </a>
+        <a href="https://github.com/Tokkisan" target="_blank" style={{ float: 'right', paddingRight: '30px' }}>
+            <i className="fa fa-github"></i>
         </a>
-      </header>
+        <a href="https://www.linkedin.com/in/aaron-lee-70b7b9239/" target="_blank" style={{ float: 'right' }}>
+            <i className="fa fa-linkedin"></i>
+        </a>
+        </div>
+
+
+        <div className="bottombar" id ="bottombar">
+            <button onClick="{goToTop()}" id="myBtn" class="top_button"> Top </button>
+        </div>
     </div>
   );
 }
