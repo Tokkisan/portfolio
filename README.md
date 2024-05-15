@@ -10,10 +10,11 @@ run using npm start
 
 
 
+
 Hosted on github pages using this guide:
 
 
-(https://github.com/gitname/react-gh-pages)
+https://github.com/gitname/react-gh-pages
 
 icons from icons8
 
