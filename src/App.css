@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 .center {
@@ -36,6 +37,8 @@ html {
   text-decoration: none;
   font-size: 17px;
 }
+
+
 
 .top_button {
   float: right;
@@ -134,17 +137,20 @@ html {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  grid-gap: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
   margin-top: 1%;
+
 
 }
 
 .grid-item {
   position: relative;
-  overflow: hidden;
+  overflow: hidden;  
+  border: #4784e6 5px solid;
+  border-radius: 30px;
 }
 
 .grid-item img {

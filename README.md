@@ -1,4 +1,4 @@
-#portfolio for 349 in react
+# portfolio for 349 in react
 
 cd into portfolio
 install using npm -i

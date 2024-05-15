@@ -10,13 +10,14 @@ const goToTop = () => {
     });
 };
 
+
 return (
     <div>
     <div className="topnav">
         <a href="#top"> Home </a>
         <a href="#projects"> Projects </a>
         <a href="https://github.com/Tokkisan" target="_blank" rel="noreferrer" style={{ float: 'right', paddingRight: '30px' }}>
-        <i className="fa fa-github"></i>
+        <i className="fa fa-github"></i>    
         </a>
         <a href="https://www.linkedin.com/in/aaron-lee-70b7b9239/" target="_blank" rel="noreferrer" style={{ float: 'right' }}>
         <i className="fa fa-linkedin"></i>
