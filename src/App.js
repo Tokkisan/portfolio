@@ -16,6 +16,7 @@ return (
     <div className="topnav">
         <a href="#top"> Home </a>
         <a href="#projects"> Projects </a>
+        <a href="#contact"> Contact </a>
         <a href="https://github.com/Tokkisan" target="_blank" rel="noreferrer" style={{ float: 'right', paddingRight: '30px' }}>
         <i className="fa fa-github"></i>    
         </a>
